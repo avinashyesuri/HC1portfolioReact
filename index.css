@@ -318,7 +318,31 @@ width: 50%;
     0 0 100px cyan, 0 0 250px cyan
 }
 
+.read-5{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 12px 28px;
+    background-color: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef; 
+    border:none;
 
+}
+.read-5:hover{
+    box-shadow: 0 0 5px cyan, 
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 250px cyan
+}
 .services-list div:hover {
  transform: translateY(-10px);
     }                  
@@ -1068,3 +1092,19 @@ border-radius: 0.5rem;
 }
 
 
+.contact-form {
+    display: none; /* Initially hidden */
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.contact-form.fade-in {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.contact-form.fade-out {
+    opacity: 0;
+    transform: translateY(20px);
+}

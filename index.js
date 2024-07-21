@@ -6,6 +6,28 @@ var typed = new Typed(".text",{
     loop: true,
 });
 
+// document.addEventListener("DOMContentLoaded", function() {
+//     const servicesList = document.getElementById('services-list');
+//     const toggleButton = document.getElementById('toggle-services');
+    
+//     // Function to toggle visibility
+//     function toggleServices() {
+//         if (servicesList.style.display === 'none') {
+//             servicesList.style.display = 'block';
+//             toggleButton.textContent = 'Hide Services';
+//         } else {
+//             servicesList.style.display = 'none';
+//             toggleButton.textContent = 'Show Services';
+//         }
+//     }
+    
+//     // Initialize state
+//     servicesList.style.display = 'block'; // Ensure the services are visible initially
+
+//     // Add click event listener to the toggle button
+//     toggleButton.addEventListener('click', toggleServices);
+// });
+
 
 
 
@@ -53,4 +75,36 @@ $('.slider_a').slick({
     });
 });
 
+$(document).ready(function() {
+    // Initially show the services section
+    $('#services').show();
 
+    // Handle the toggle button click event
+    $('#toggle-services').click(function() {
+        // Check if the services section is visible
+        if ($('#services').is(':visible')) {
+            // Hide the services section
+            $('#services').hide();
+        } else {
+            // Show the services section
+            $('#services').show();
+        }
+    });
+});
+
+
+$(document).ready(function() {
+    $('#toggle-contact-form').click(function() {
+        var $contactForm = $('.contact-form');
+        
+        if ($contactForm.hasClass('fade-in')) {
+            $contactForm.removeClass('fade-in').addClass('fade-out');
+            setTimeout(function() {
+                $contactForm.hide(); // Hide element after animation
+            }, 1000); // Match the CSS animation duration
+        } else {
+            $contactForm.show(); // Show element before animation
+            $contactForm.removeClass('fade-out').addClass('fade-in');
+        }
+    });
+});
