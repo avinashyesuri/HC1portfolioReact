@@ -40,4 +40,4 @@ Feel free to reach out to me for collaboration or inquiries.
 - **LinkedIn:** https://www.linkedin.com/in/avinash-yesurii-6413a11a3
 - **GitHub:** https://github.com/avinashyesuri
 - **Leetcode :**(https://leetcode.com/u/avinashYesuri/)
-
+- **GitHub:**https://github.com/Avinashhola
