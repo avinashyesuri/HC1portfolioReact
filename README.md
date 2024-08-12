@@ -46,3 +46,5 @@ Feel free to reach out to me for collaboration or inquiries.
 
 ## home page 
 ![image](https://github.com/user-attachments/assets/39ee6b26-ad95-423d-bf3a-df175cf5906c)
+## Aboyut pg 
+![image](https://github.com/user-attachments/assets/d9614db7-327b-4997-9d36-14dab4b3b3a8)
