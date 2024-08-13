@@ -48,3 +48,11 @@ Feel free to reach out to me for collaboration or inquiries.
 ![image](https://github.com/user-attachments/assets/39ee6b26-ad95-423d-bf3a-df175cf5906c)
 ## Aboyut pg 
 ![image](https://github.com/user-attachments/assets/d9614db7-327b-4997-9d36-14dab4b3b3a8)
+
+
+![image](https://github.com/user-attachments/assets/52751385-4541-414a-a71a-be529548727f)
+![image](https://github.com/user-attachments/assets/b31e6c8c-ce90-4be9-99c8-2bbd4d0c9028)
+![image](https://github.com/user-attachments/assets/4ba97eb7-c2fa-4c4c-a029-1082d4476744)
+![image](https://github.com/user-attachments/assets/342e84e4-ff9f-418b-9b52-a7ddfd3d2677)
+
+
