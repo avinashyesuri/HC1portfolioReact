@@ -53,10 +53,10 @@ Feel free to reach out to me for collaboration or inquiries.
 ## Technical keysstandards
 ![image](https://github.com/user-attachments/assets/52751385-4541-414a-a71a-be529548727f)
 
-## Projects
+## Skills 
 ![image](https://github.com/user-attachments/assets/b31e6c8c-ce90-4be9-99c8-2bbd4d0c9028)
 
-## Skills 
+## Projects
 ![image](https://github.com/user-attachments/assets/4ba97eb7-c2fa-4c4c-a029-1082d4476744)
 
 ## contact information
