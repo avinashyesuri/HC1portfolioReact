@@ -16,6 +16,17 @@ body{
     background-color: rgb(8, 19, 60);
     /* background-color: #081b29; */
 }
+
+.box {
+    border: 10px solid;
+    border-image-source: url(border-image.png);
+    border-image-slice: 30 fill; /* Slice the image into 30px pieces and fill the border */
+    border-image-width: 30px;    /* Width of the border image slices */
+  }
+  .low{
+height:150px;
+width:200px;
+  }
 .header{
     position: fixed;
     top: 0;
@@ -39,6 +50,9 @@ body{
     opacity:0;
     animation: slideRight 1s ease forwards;
 
+}
+.logo-hover:hover{
+    color: #0ef;
 }
 .navbar a{
     margin-left: 35px;
@@ -115,7 +129,7 @@ color: cyan;
     background: transparent;
     border: 2px solid #0ef;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     color: aqua;
     transition:0.5s ease;
@@ -160,73 +174,130 @@ color: cyan;
 
 }
 
+
 .about{
-    /* display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap:2.5rem; */
-
- display: flex;
- flex-direction: row;
- justify-content: flex-start;
-
-   
-}
-.about .about-sub{
-
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 2%;
 }
-.about-img img{
-   
-    max-width: 630px;
-    height: 250px;
-    width: 200px;
+.about-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.about-sub h2{
+font-size: 60px;
+margin: 30px;
+}
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.experience-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #031042; /* Card background color */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #4a75a3; /* Card border color */
+    margin-bottom: 20px; /* Padding at the bottom for each card */
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.card-image {
+    width: 150px;
+    height: 120px;
     border-radius: 50%;
-   
+    margin-right: 25px;
 }
-.about-text {
-  padding-left: 50px;
+
+.card-details {
+    flex: 1;
 }
-.about-text h2{
-    font-size: 60px;
+
+.card-details h3, 
+.card-details h4, 
+.card-details h5, 
+.card-details h6 {
+    margin: 5px 0;
+    color: white; /* Text color */
 }
-.about-text h2 span{
-    color: #0ef;
-}
-.about-text h4{
-    font-size: 29px;
-    font-weight: 600;
-    color: #fff;
-    line-height: 1.7;
-    margin: 15px 0 30px;
-}
-.about-text p{
-    font-size: 20px;
+
+.card-description {
+    font-size: 16px;
     color: aliceblue;
-    line-height: 1.4;
-    margin-bottom: 4rem;
+    text-align: center;
+    margin-bottom: 15px;
 }
-.about-bullet-piont{
+
+.skills-list {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2px;
 }
 
-.about ul {  
-    margin: -50px 0 25px 0px;  
-    font-size: 20px; 
-    
+.skills-list li  {
+    margin: 4px;
+    padding: 4px 8px;
+    list-style-type: none;
 }
-.about-uli {  
- font-size: 16px;
+ .inner-list-sty{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(32, 18, 225);
+    margin: 4px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: rgba(133, 76, 230, 0.125);
+    border: none;
+}
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #services{
     color: aliceblue;
     font-size: 20px;
@@ -241,6 +312,9 @@ color: cyan;
 }
 .sub-title2{  
     margin-bottom: -200px;
+}
+.sub-title3{  
+    margin-top: 150px;
 }
 .sub-title span{
     color: #0ef;
@@ -536,24 +610,24 @@ section{
 }
 .container1{
     width: 600px;
-    height: 500px;
-    padding: 75px 90px;
+    height: auto;
+    padding: 50px;
     margin-left: 120px;
-margin-top: 75px;
+    margin-top: 175px;
+    /* border: 1px solid #0ef;
+    border-radius: 10px; */
+
 }
-
-
-
 .heading1{
     text-align: center;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 5px;
     margin-bottom: 15px;
 }
 
-.heading2{
-    margin-top: 75px;  
+/* .heading2{
+    margin-top: 5px;  
+} */
+.headingSPAN span{
+    color:#0ef;
 }
 .bar{
     font-size: 23px;
@@ -611,13 +685,13 @@ transform-origin: left;
     width: 90%;
 }
 .progress-line.javascript span{
-    width: 85%;
+    width: 75%;
 }
 .progress-line.python span{
     width: 75%;
 }
 .progress-line.react span{
-    width: 75%;
+    width: 65%;
 }
 .progress-line  span::after{
    position: absolute;
@@ -635,16 +709,16 @@ transform-origin: left;
     content: "90%";
 }
 .progress-line.css span::after{
-    content: "60%";
+    content: "90%";
 }
 .progress-line.javascript span::after{
-    content: "85%";
+    content: "75%";
 }
 .progress-line.python span::after{
-    content: "50%";
+    content: "70%";
 }
 .progress-line.react span::after{
-    content: "75%";
+    content: "65%";
 }
 .progress-line span::before{
     content:'';
@@ -781,6 +855,7 @@ animation: animate-bar 1s linear forwards;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+    margin-top: 80px;
 }
 
 .radial-bars .radial-bar {
@@ -864,7 +939,7 @@ animation: animate-bar 1s linear forwards;
 
 .main-text{
     padding-top: 130px;
-    margin-top: 20px;
+    margin-top: -120px;
 
 }
 .main-text h2{
@@ -876,13 +951,8 @@ margin: 25px 0 25px 0;
 .main-text h2 span{
    color: #0ef;
 }
-.portfolio-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  align-items: center;
-}
-.row{
+
+/* .row{
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -946,7 +1016,179 @@ line-height: 1.1;
 }
 .row:hover .layer{
     height: 100%;
+} */
+
+
+
+
+
+
+
+.portfolio-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  align-items: center;
 }
+
+.row-modal{
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #0ef;
+    color: black;
+    z-index: 2;
+}
+
+.row {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 400px;
+    width: 500px;
+    margin: 1%;
+    
+}
+
+.row img {
+    width: 100%;
+    height: 75%;
+    border-radius: 8px;
+
+    left: 0;
+    bottom: 0;
+    margin: 100px 10px 10px 10px;
+    display: block;
+    transition: transform 0.5s, filter 0.5s; /* Added filter transition */
+}
+.row-modal img {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+.layer {
+    width: 100%;
+    height: 0;
+    background: rgba(255, 255, 255, 0.8); /* Lightened the background color */
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+
+    bottom: 0;
+ 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+    backdrop-filter: blur(10px); /* Adds a blur to the background */
+}
+
+.layer h5 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.layer p {
+    font-size: 1rem;
+    color: #000;
+    line-height: 1.1;
+}
+
+.layer i {
+    color: #ff004f;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.row:hover img {
+    transform: scale(1.1);
+    filter: blur(8px); /* Apply blur effect to the image on hover */
+}
+
+.row:hover .layer {
+    height: 70%;
+
+}
+
+ .btn-modal {
+
+    padding: 8px;
+    background-color: rgb(83, 152, 231);
+    border-radius: 40px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight:600;
+    opacity: 0;
+    /* box-shadow: 0 0 5px  rgb(83, 152, 231), 
+    0 0 25px  rgb(83, 152, 231) */
+}
+ .btn-modal:hover{
+    /* box-shadow: 0 0 5px  rgb(83, 152, 231), 
+    0 0 25px  rgb(83, 152, 231), 0 0 50px  rgb(83, 152, 231),
+    0 0 100px  rgb(83, 152, 231), 0 0 250px  rgb(83, 152, 231) */
+
+}
+
+.brn-modal{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #031042;
+    color: white;
+    margin-top:10px;
+}
+
+.bxn-modal{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #0ef;
+    color: black;
+    margin-top:10px;
+    margin-right: 10px;
+}
+.bxn-modal:hover{
+    box-shadow: 0 0 5px  rgb(83, 152, 231), 
+    0 0 25px  rgb(83, 152, 231), 0 0 50px  rgb(83, 152, 231),
+    0 0 100px  rgb(83, 152, 231), 0 0 250px  rgb(83, 152, 231) ;
+
+cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .contact{
     display: grid;
@@ -1032,7 +1274,7 @@ position: relative;
    border: none;
    outline: none;
    width: 90%;
-   background-color: #555557;
+   background-color: white;
    color: #000;
    font-size: 1rem;
    font-weight: 600;
@@ -1069,14 +1311,46 @@ padding: 1%;
     0 0 100px cyan, 0 0 250px cyan
 }
 
-.last-text p{
+.last-text {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: rgb(7, 85, 91);
+    /* background: rgb(7, 85, 91); */
+    background: #051129;
     font-weight: 300;
     margin-top: 70PX;
+    padding-bottom: 30PX;
+    color: #0ef;
 }
+p{
+  color: white;
+  font-size: 12px;
+}
+.link-val {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    
+}
+
+.link-val li {
+    margin-right: 20px;
+}
+
+.link-val a {
+    text-decoration: none;
+    color: white;
+}
+.link-val a:hover {
+    text-decoration: none;
+    color: #0ef;
+}
+
+
 .top{
     position: fixed;
     bottom:2.1rem ;
