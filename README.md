@@ -56,7 +56,7 @@ Feel free to reach out to me for collaboration or inquiries.
 ![image](https://github.com/user-attachments/assets/b31e6c8c-ce90-4be9-99c8-2bbd4d0c9028)
 
 ## Projects
-![image](https://github.com/user-attachments/assets/4ba97eb7-c2fa-4c4c-a029-1082d4476744)
+![image](https://github.com/user-attachments/assets/2af1fd5f-0ebc-48ea-a15f-ec1b27f37934)
 
 ## contact information
 ![image](https://github.com/user-attachments/assets/342e84e4-ff9f-418b-9b52-a7ddfd3d2677)
