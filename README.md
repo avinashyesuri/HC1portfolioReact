@@ -10,7 +10,7 @@ successfully designing and building web applications.
 ## Skills
 
 - **Frontend Development:** React, JavaScript, HTML5, CSS3, TailwindCSS, Bootstrap
-- **Backend Development:** Python, SQL
+- **Backend Development:** Python, SQL 
 - **database :** Powerbi, SQL
 - **Tools & Technologies:** VS Code, Git, Webpack
 - **Soft Skills:** Solution-oriented strategist, cross-functional collaboration, long-term goal focus
