@@ -63,7 +63,6 @@ Feel free to reach out to me for collaboration or inquiries.
 
 ![image](https://github.com/user-attachments/assets/3704dec3-d8ac-499a-a566-b4f5caa931c4)
 
-
 ## contact information
 ![image](https://github.com/user-attachments/assets/342e84e4-ff9f-418b-9b52-a7ddfd3d2677)
 
