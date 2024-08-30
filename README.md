@@ -50,7 +50,7 @@ Feel free to reach out to me for collaboration or inquiries.
 ## About pg 
 ![image](https://github.com/user-attachments/assets/d9614db7-327b-4997-9d36-14dab4b3b3a8)
 
-## Technical keysstandards
+## Technical key standards
 ![image](https://github.com/user-attachments/assets/e8db4fdc-8206-481e-8617-54a05b55253b)
 
 ## Skills 
