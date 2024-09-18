@@ -183,6 +183,7 @@ color: cyan;
     text-decoration: none;
     font-weight:600;
     opacity: 0;
+    border: none;
     animation:slideTop 1s ease forwards;
     animation-delay:2s;
     box-shadow: 0 0 5px cyan, 
@@ -357,6 +358,7 @@ margin: 2px 2px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+   
     flex-wrap: wrap;    /* display:grid;
     grid-template-columns: repeat(auto-fit, minmax(259px,1fr));
     grid-gap: 40px;
