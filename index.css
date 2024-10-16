@@ -27,6 +27,11 @@ body{
 height:150px;
 width:200px;
   }
+
+
+
+  /*  Header section  */
+
 .header{
     position: fixed;
     top: 0;
@@ -69,6 +74,51 @@ width:200px;
 .navbar a:hover{
     color: #0ef;
 }
+
+
+/* Hide the navbar for small screens */
+@media (max-width: 768px) {
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #051129;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+        font-size: 22px;
+    }
+
+    /* Show the hamburger menu */
+    .hamburger {
+        display: flex;
+    }
+
+    /* When menu is opened, show the links */
+    .navbar.active {
+        display: flex;
+    }
+    .header{
+        width: 100%;
+    }
+ .header button{
+    display: none;
+ }
+
+}
+
+
+
+
+
+
+/* Home section */
 .home{
     position: relative;
     width: 100%;

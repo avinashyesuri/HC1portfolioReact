@@ -1,3 +1,9 @@
+function toggleMenu() {
+    const navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('active');
+}
+
+
 var typed = new Typed(".text",{
     strings:["Frontend Developer", "Web Developer", "UI/UX Designer"],
     typeSpeed: 100,
@@ -5,6 +11,9 @@ var typed = new Typed(".text",{
     backDelay: 1000,
     loop: true,
 });
+
+
+
 
 // document.addEventListener("DOMContentLoaded", function() {
 //     const servicesList = document.getElementById('services-list');
