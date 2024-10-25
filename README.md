@@ -2,7 +2,7 @@
 ## About Me
 
 
-I am an experienced Frontend Developer with 1 year of expertise in React and JavaScript. I have developed responsive and user-friendly designs using TailwindCSS and Bootstrap, optimizing page load speed for Hola9 Classifieds.
+I am an experienced Frontend Developer with 1 year of expertise in React and JavaScript. I have developed responsive and user-friendly designs using TailwindCSS and Bootstrap, optimizing page load speed for Hola9 Classifieds India private limtited.
 
 My proficiency extends to Python and SQL, with valuable internship experience in automation analysis from CCBP Nxtwave. As a solution-oriented strategist, I focus on long-term goals and cross-functional collaboration, successfully designing and building web applications.
 
