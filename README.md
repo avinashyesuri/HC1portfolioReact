@@ -1,5 +1,5 @@
 # Hi, I'm Avinash yesuri 👋
-## About Me
+## About Myself
 
 
 I am an experienced Frontend Developer with 1 year of expertise in React and JavaScript. I have developed responsive and user-friendly designs using TailwindCSS and Bootstrap, optimizing page load speed for Hola9 Classifieds India Private limtited.
