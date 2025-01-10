@@ -5,6 +5,7 @@ I am an experienced Frontend Developer with 1 year of expertise in React and Jav
 
 My proficiency extends to Python and SQL, with valuable internship experience in automation analysis from CCBP Nxtwave. As a solution-oriented strategist, I focus on long-term goals and cross-functional collaboration, successfully designing and building web applications.
 
+
 ## Skills
 
 - **Frontend Development:** React, JavaScript, HTML5, CSS3, TailwindCSS, Bootstrap
