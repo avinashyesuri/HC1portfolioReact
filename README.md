@@ -23,7 +23,6 @@ My proficiency extends to Python and SQL, with valuable internship experience in
   - Internship in automation analysis.
 
 ## Projects
-
 - **HRMS and eCommerce Websites:**
   - Worked on the development and design of HRMS and eCommerce websites.
   - Focused on improving user experience and optimizing performance.
