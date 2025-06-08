@@ -1,17 +1,13 @@
 # Hi, I'm Avinash yesuri 👋
 ## About Myself
 I am an experienced Frontend Developer with 1 year of expertise in React and JavaScript. I have developed responsive and user-friendly designs using TailwindCSS and Bootstrap, optimizing page load speed for Hola9 Classifieds India Private limtited.
-
 My proficiency extends to Python and SQL, with valuable internship experience in automation analysis from CCBP Nxtwave. As a solution-oriented strategist, I focus on long-term goals and cross-functional collaboration, successfully designing and building web applications.
-
 ## Skills
-
 - **Frontend Development:** React, JavaScript, HTML5, CSS3, TailwindCSS, Bootstrap
 - **Backend Development:** Python, SQL 
 - **database :** Powerbi, SQL
 - **Tools & Technologies:** VS Code, Git, Webpack
 - **Soft Skills:** Solution-oriented strategist, cross-functional collaboration, long-term goal focus
-
 ## Experience
 
 - **Hola9 Classifieds:**
