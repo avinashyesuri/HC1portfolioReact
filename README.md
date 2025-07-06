@@ -9,7 +9,6 @@ My proficiency extends to Python and SQL, with valuable internship experience in
 - **Tools & Technologies:** VS Code, Git, Webpack
 - **Soft Skills:** Solution-oriented strategist, cross-functional collaboration, long-term goal focus
 ## Experience
-
 - **Hola9 Classifieds:**
   - Developed multiple responsive and user-friendly designs.
   - Optimized page load speed, improving website usability.
