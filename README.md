@@ -12,10 +12,8 @@ My proficiency extends to Python and SQL, with valuable internship experience in
 - **Hola9 Classifieds:**
   - Developed multiple responsive and user-friendly designs.
   - Optimized page load speed, improving website usability.
-
 - **CCBP Nxtwave:**
   - Internship in automation analysis.
-
 ## Projects
 - **HRMS and eCommerce Websites:**
   - Worked on the development and design of HRMS and eCommerce websites.
