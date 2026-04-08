@@ -60,5 +60,4 @@ Feel free to reach out to me for collaboration or inquiries.
 ## contact information
 ![image](https://github.com/user-attachments/assets/342e84e4-ff9f-418b-9b52-a7ddfd3d2677)
 
-
 worked on the frontend devloping prtfolio on in 
